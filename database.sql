@@ -98,5 +98,3 @@ CREATE TABLE `warranty` (
   FOREIGN KEY (`Product_ID`) REFERENCES `product`(`Prod_ID`)
 );
 
-
-
