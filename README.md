@@ -68,14 +68,19 @@ The Furniture Store Management System is designed to simplify and optimize the m
 
  - Install necessary Python libraries: mysql-connector-python, tkinter (pre-installed in most cases).
 
-- ### Database Setup:
+ ### Database Setup:
 
  - Create a new MySQL database using the SQL script provided in the database.sql file.
 
  - Update the database credentials in the Python script (db_config section).
 
-- ### Run the Application:
+ ### Run the Application:
 
  - Navigate to the project directory in your terminal or IDE.
 
  - Execute the main Python script: furniture_Store.py.
+
+
+# Sample Image
+
+![image](https://github.com/user-attachments/assets/1b855576-33b9-4d1d-bdd2-1e024e242b71)
