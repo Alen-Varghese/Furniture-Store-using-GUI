@@ -97,3 +97,4 @@ CREATE TABLE `warranty` (
   FOREIGN KEY (`Purchase_ID`) REFERENCES `purchase`(`purchase_id`),
   FOREIGN KEY (`Product_ID`) REFERENCES `product`(`Prod_ID`)
 );
+
