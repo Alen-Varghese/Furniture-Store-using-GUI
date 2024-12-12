@@ -366,6 +366,7 @@ def show_product(product_name):
         # Create a cursor object to execute SQL queries
         mycursor = mydb.cursor()
 
+        
         # Execute SQL query to fetch product details based on selected product
         mycursor.execute("SELECT Prod_ID, Prod_Name, Prod_Price FROM PRODUCT WHERE Prod_Name = %s", (product_name,))
         product_details = mycursor.fetchone()
