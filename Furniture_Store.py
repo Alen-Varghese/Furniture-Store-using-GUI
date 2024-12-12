@@ -883,5 +883,4 @@ password_label.pack(pady=5)
 password_entry.pack(pady=5)
 connect_button.pack(pady=10)
 
-
 root.mainloop()
