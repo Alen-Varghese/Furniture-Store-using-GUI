@@ -834,7 +834,6 @@ def submit_feedback():
 
             # Display success message
             messagebox.showinfo("Success", "Feedback submitted successfully!")
-
             # Close the cursor and connection
             mycursor.close()
             mydb.close()
