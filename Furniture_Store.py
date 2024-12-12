@@ -859,7 +859,6 @@ username_label = tk.Label(root, text="Username:")
 
 username_entry = tk.Entry(root)
 
-
 password_label = tk.Label(root, text="Password:")
 
 password_entry = tk.Entry(root, show="*")
