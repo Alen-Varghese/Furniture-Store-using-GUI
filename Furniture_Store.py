@@ -864,7 +864,6 @@ password_label = tk.Label(root, text="Password:")
 
 password_entry = tk.Entry(root, show="*")
 
-
 # Create button to connect to the database
 connect_button = tk.Button(root, text="Connect", command=connect_to_database)
 
