@@ -868,7 +868,6 @@ password_entry = tk.Entry(root, show="*")
 # Create button to connect to the database
 connect_button = tk.Button(root, text="Connect", command=connect_to_database)
 
-
 # Style the username and password labels and entries
 username_label.config(font=FONT_MAIN, bg=BACKGROUND_COLOR, fg=TEXT_COLOR)
 password_label.config(font=FONT_MAIN, bg=BACKGROUND_COLOR, fg=TEXT_COLOR)
